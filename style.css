@@ -1,0 +1,318 @@
+
+/*#fname{
+    font-size: 60px;
+    font-family: 'Courier New', Courier, monospace;
+    position: absolute;
+    top: 50px;
+    left: 500px;
+}
+#lname{
+    font-size: 60px;
+    font-family: 'Courier New', Courier, monospace;
+    position: absolute;
+    top: 100px;
+    left: 500px;
+}
+#degree{
+    font-size: 30px;
+    font-family: 'Courier New', Courier, monospace;
+    position: absolute;
+    position: absolute;
+    top: 180px;
+    left: 500px;
+}
+table{
+    border-collapse: collapse;
+    border-width: 1px;
+    border-style: solid;
+    border-color: black;
+}
+tr :nth-child(2n + 1){
+    
+    border-width: 1px;
+    border-style: solid;
+    border-color: black;
+}*/
+/* places the marker within the text 
+  area, inside the item element */
+/* Created by htmllessons */
+
+/* body {
+    font-family: 'Arial', sans-serif;
+    background-color: #282a36;
+    color: #f8f8f2;
+    font-size: 18px;
+}
+
+ul {
+    list-style-image: url('https://blob.sololearn.com/courses/logo.png');
+    background-color: #44475a;
+}
+
+li {
+    font-weight: 600;
+    text-shadow: 2px 2px 3px #6272a4;
+} */
+/* body{
+    background-color: #0C1527;
+  }
+  
+  input {
+    border:1px solid #FF9E03;
+  }
+  label {
+    font-weight: bold;
+    color: #FF9E03;
+  } */
+  /* body{
+    background-color: #0C1527;
+  }
+  
+  input[type="text"] {
+    border: 1px solid #FF9E03;
+    background-color: #17233B;
+  }
+  
+  label {
+    font-weight: bold;
+    color: #FF9E03;
+  } */
+  /* body{
+    background-color: #0C1527;
+  }
+  
+  input[type="text"], input[type="email"] {
+    border: 1px solid #FF9E03;
+    background-color: #17233B;
+    color: #FFFFFF;
+    font-weight: bold;
+    border-radius: 10px;
+  }
+  input[type='submit'] {
+    background-color: #149EF2;
+    border-radius: 15px;
+    border: none;
+    font-weight: bold;
+    color: white;
+    width: 70px;
+    height: 40px;
+    font-size: 18px;
+  }
+  input[type='submit']:hover {
+    background-color: #0C1527;
+    color: #FF9E03;
+    border: 1px solid #FF9E03;
+    border-radius: 10px;
+  }
+  label {
+    font-weight: bold;
+    color: #FF9E03;
+  } */
+
+
+  div{
+    border: solid;
+  }
+  body{
+    background-color: #FFEC9E;
+  }
+  #aside{
+    background-color: #FFBB70;
+    position: absolute;
+    border: #FFBB70;
+    border-radius: 10%;
+    top: 20px;
+    left: 20px;
+    width: 500px;
+    height: 90%;
+  }
+  #aside #profile{
+    /* background-color: #E8EFCF; */
+    border :none;
+    border-radius: 0%;
+    position: relative;
+    top: 0px;
+    left: 20px;
+    right: 20px;
+    height: 40%;
+    width: 90%;
+  }
+  #aside #profile label{
+    color: #E8EFCF;
+    font-size: 30px; 
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  #aside #profile ul{
+    list-style: square outside none ;
+    color: #E8EFCF;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px; 
+    
+  }
+  #aside #contact{
+    /* background-color: #E8EFCF; */
+    border :none ;
+    border-radius: 0%;
+    position: relative;
+    top: 0px;
+    left: 20px;
+    right: 20px;
+    height: 20%;
+    width: 90%;
+  }
+  #aside #contact label{
+    color: #E8EFCF;
+    font-size: 30px; 
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  #aside #contact ul{
+    list-style: square outside none ;
+    color: #E8EFCF;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px; 
+    
+  }
+  #aside #hobbies{
+    /* background-color: #E8EFCF; */
+    border :none ;
+    border-radius: 0%;
+    
+
+    position: relative;
+    top: 0px;
+    left: 20px;
+    right: 20px;
+    height: 15%;
+    width: 90%;
+  }
+  #aside #hobbies label{
+    color: #E8EFCF;
+    font-size: 30px; 
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  #aside #hobbies ul{
+    list-style: square outside none ;
+    color: #E8EFCF;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px; 
+    
+  }
+  #main{
+    background-color: #ED9455;
+    border :#ED9455 ;
+    border-radius: 10%;
+    position: absolute;
+    left: 540px;
+    top: 20px;
+    width: 950px;
+    height: 90%;
+
+  }
+  #main #info{
+    /* background-color: #E8EFCF; */
+    border :none;
+    border-radius: 0%;
+    position: relative;
+    top: 20px;
+    left: 20px;
+    right: 20px;
+    height: 35%;
+    width: 90%;
+  }
+  #info img{
+    position: absolute;
+    top: 5px;
+    left: 5px;
+    border: solid 5px #E8EFCF;
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+  }
+  #info h1{
+    position: absolute;
+    font-family: Arial, Helvetica, sans-serif ;
+    color: #E8EFCF;
+    font-size: 48px;
+    font-weight: bolder;
+    top: 35px;
+    left: 250px;
+
+  }
+  #info h2{
+    position: absolute;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #E8EFCF;
+    font-size: 20px; 
+    top: 105px;
+    left: 250px;
+
+  }
+ 
+  #main #education{
+    /* background-color: #E8EFCF; */
+    border :none ;
+    border-radius: 0%;
+    position: relative;
+    top: 0px;
+    left: 20px;
+    right: 20px;
+    height: 20%;
+    width: 90%;
+  }
+  #main #education label{
+    color: #E8EFCF;
+    font-size: 30px; 
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  #main #education ul{
+    list-style: square outside none ;
+    color: #E8EFCF;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px; 
+    
+  }
+  #main #skills{
+    /* background-color: #E8EFCF; */
+    border :none ;
+    border-radius: 0%;
+    position: relative;
+    top: 20px;
+    left: 20px;
+    right: 20px;
+    height: 30%;
+    width: 90%;
+  }
+  #main #skills label{
+    color: #E8EFCF;
+    font-size: 30px; 
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  #main #skills ul {
+    list-style: square outside none ;
+    color: #E8EFCF;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px; 
+    
+  }
+ 
+  #project2:link, #project1:link, #telegram:link 
+  {
+    text-decoration:underline;
+    color: #E8EFCF;
+  }
+  
+  
+  #project1:hover, #project2:hover, #telegram:hover
+  {
+    margin-bottom: 3px solid #ff7400;
+    background: black;
+  }
+  
+  #project1:visited, #project2:visited, #telegram:visited
+  {
+    color:#E8EFCF;
+  }
+  
+
+ 
+ 
