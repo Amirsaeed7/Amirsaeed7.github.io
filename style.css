@@ -123,7 +123,7 @@ li {
     border-radius: 10%;
     top: 20px;
     left: 20px;
-    width: 500px;
+    width: 30%;
     height: 90%;
   }
   #aside #profile{
@@ -140,12 +140,12 @@ li {
   #aside #profile label{
     color: #E8EFCF;
     font-size: 30px; 
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: SunnySpellsBasicRegular-Yz1Wv;
   }
   #aside #profile ul{
     list-style: square outside none ;
     color: #E8EFCF;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: SunnySpellsBasicRegular-Yz1Wv;
     font-size: 20px; 
     
   }
@@ -163,12 +163,12 @@ li {
   #aside #contact label{
     color: #E8EFCF;
     font-size: 30px; 
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: SunnySpellsBasicRegular-Yz1Wv;
   }
   #aside #contact ul{
     list-style: square outside none ;
     color: #E8EFCF;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: SunnySpellsBasicRegular-Yz1Wv;
     font-size: 20px; 
     
   }
@@ -188,12 +188,12 @@ li {
   #aside #hobbies label{
     color: #E8EFCF;
     font-size: 30px; 
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: SunnySpellsBasicRegular-Yz1Wv;
   }
   #aside #hobbies ul{
     list-style: square outside none ;
     color: #E8EFCF;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: SunnySpellsBasicRegular-Yz1Wv;
     font-size: 20px; 
     
   }
@@ -204,7 +204,7 @@ li {
     position: absolute;
     left: 540px;
     top: 20px;
-    width: 950px;
+    width: 60%;
     height: 90%;
 
   }
@@ -230,7 +230,7 @@ li {
   }
   #info h1{
     position: absolute;
-    font-family: Arial, Helvetica, sans-serif ;
+    font-family: SunnySpellsBasicRegular-Yz1Wv ;
     color: #E8EFCF;
     font-size: 48px;
     font-weight: bolder;
@@ -240,7 +240,7 @@ li {
   }
   #info h2{
     position: absolute;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: SunnySpellsBasicRegular-Yz1Wv;
     color: #E8EFCF;
     font-size: 20px; 
     top: 105px;
@@ -262,12 +262,12 @@ li {
   #main #education label{
     color: #E8EFCF;
     font-size: 30px; 
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: SunnySpellsBasicRegular-Yz1Wv;
   }
   #main #education ul{
     list-style: square outside none ;
     color: #E8EFCF;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: SunnySpellsBasicRegular-Yz1Wv;
     font-size: 20px; 
     
   }
@@ -276,21 +276,21 @@ li {
     border :none ;
     border-radius: 0%;
     position: relative;
-    top: 20px;
+    top: 0px;
     left: 20px;
     right: 20px;
-    height: 30%;
+    height: 50%;
     width: 90%;
   }
   #main #skills label{
     color: #E8EFCF;
     font-size: 30px; 
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: SunnySpellsBasicRegular-Yz1Wv;
   }
   #main #skills ul {
     list-style: square outside none ;
     color: #E8EFCF;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: SunnySpellsBasicRegular-Yz1Wv;
     font-size: 20px; 
     
   }
@@ -311,6 +311,15 @@ li {
   #project1:visited, #project2:visited, #telegram:visited
   {
     color:#E8EFCF;
+  }
+  #lastUp p{
+    color: #ff7400;
+    font-size: 30px; 
+    font-family: SunnySpellsBasicRegular-Yz1Wv;
+    position: absolute;
+    top : 625px;
+    left : 500px;
+
   }
   
 
